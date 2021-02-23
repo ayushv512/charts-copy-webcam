@@ -1,9 +1,12 @@
 <img width="1639" alt="Screenshot 2021-02-23 at 11 08 04 PM" src="https://user-images.githubusercontent.com/32220773/108885438-d25f5100-762d-11eb-89d4-81cf9ec57150.png">
+<img width="1658" alt="Screenshot 2021-02-24 at 12 09 37 AM" src="https://user-images.githubusercontent.com/32220773/108891634-f3777000-7634-11eb-9ed2-ebcb280c2028.png">
+<img width="1660" alt="Screenshot 2021-02-24 at 12 09 58 AM" src="https://user-images.githubusercontent.com/32220773/108891639-f4100680-7634-11eb-8394-f5027090a1c0.png">
 <img width="1638" alt="Screenshot 2021-02-22 at 1 03 14 AM" src="https://user-images.githubusercontent.com/32220773/108636257-32c58580-74aa-11eb-8c9e-cacf8c6576f3.png">
 <img width="1654" alt="Screenshot 2021-02-22 at 1 03 27 AM" src="https://user-images.githubusercontent.com/32220773/108636258-335e1c00-74aa-11eb-990c-555461c13520.png">
 <img width="1668" alt="Screenshot 2021-02-23 at 11 08 37 PM" src="https://user-images.githubusercontent.com/32220773/108885597-076ba380-762e-11eb-9f22-7c45a39b7099.png">
 <img width="1655" alt="Screenshot 2021-02-23 at 11 10 20 PM" src="https://user-images.githubusercontent.com/32220773/108885607-09356700-762e-11eb-91dd-5d98d91a83d5.png">
 <img width="1652" alt="Screenshot 2021-02-23 at 11 10 38 PM" src="https://user-images.githubusercontent.com/32220773/108885634-0f2b4800-762e-11eb-978f-1d6ac296a99c.png">
+<img width="1662" alt="Screenshot 2021-02-24 at 12 06 40 AM" src="https://user-images.githubusercontent.com/32220773/108891607-ec506200-7634-11eb-94eb-b0af8eef5967.png">
 
 
 # Getting Started with Create React App
