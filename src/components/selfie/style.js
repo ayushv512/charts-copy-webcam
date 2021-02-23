@@ -11,6 +11,12 @@ export const SelfieComponentWrapper = styled.div`
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+        video {
+            border-radius: 50%;
+        }
+        canvas {
+            border-radius: 50%;
+        }
     }
 
     button {

@@ -16,6 +16,12 @@ const ChartComponent = (props) => {
         chart.scrollbarX = new am4core.Scrollbar();
         chart.data = props.data;
         chart.responsive.enabled = true;
+        chart.numberFormatter.numberFormat = "#a";
+        chart.numberFormatter.bigNumberPrefixes = [
+            { "number": 1e+3, "suffix": "K" },
+            { "number": 1e+6, "suffix": "M" },
+            { "number": 1e+9, "suffix": "B" }
+        ];
 
         // Create axes
         var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
@@ -28,9 +34,22 @@ const ChartComponent = (props) => {
         categoryAxis.renderer.labels.template.rotation = 270;
         categoryAxis.tooltip.disabled = true;
         categoryAxis.renderer.minHeight = 110;
+        categoryAxis.title.text = "Stackoverflow name";
+        categoryAxis.title.fontWeight = 600;
 
         var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
         valueAxis.renderer.minWidth = 50;
+        valueAxis.paddingLeft = 10;
+        valueAxis.paddingRight = 10;
+        valueAxis.layout = "absolute";
+        
+        // Set up axis title
+        valueAxis.title.text = "Count";
+        valueAxis.title.rotation = 0;
+        valueAxis.title.align = "center";
+        valueAxis.title.valign = "top";
+        valueAxis.title.dy = -40;
+        valueAxis.title.fontWeight = 600;
 
         // Create series
         var series = chart.series.push(new am4charts.ColumnSeries());

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {deviceWidths} from '../../config/config';
 
-export const LanguagePageWrapper = styled.div`
+export const ChartPageWrapper = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;

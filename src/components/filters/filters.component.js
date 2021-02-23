@@ -1,15 +1,14 @@
 import React from 'react';
+
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import Button from '@material-ui/core/Button';
-import { FiltersComponentWrapper } from './style';
 import { makeStyles } from '@material-ui/core/styles';
-import {
-    MuiPickersUtilsProvider,
-    KeyboardDatePicker
-} from '@material-ui/pickers';
+import { MuiPickersUtilsProvider, KeyboardDatePicker } from '@material-ui/pickers';
 import DateFnsUtils from '@date-io/date-fns';
+
 import { orderOptions } from '../../config/config';
+import { FiltersComponentWrapper } from './style';
 
 const useStyles = makeStyles((theme) => ({
     root: {

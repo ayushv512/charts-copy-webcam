@@ -1,3 +1,4 @@
+import React from 'react';
 import { positions, Provider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
 import LandingPage from './pages/landing/landing.page';
@@ -7,12 +8,12 @@ const options = {
   position: positions.TOP_CENTER
 };
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-       <Provider template={AlertTemplate} {...options}>
-          <LandingPage />
-       </Provider>
+      <Provider template={AlertTemplate} {...options}>
+        <LandingPage />
+      </Provider>
     </div>
   );
 }

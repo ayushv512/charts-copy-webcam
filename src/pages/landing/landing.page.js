@@ -6,9 +6,10 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Box from '@material-ui/core/Box';
 
-import LanguagePage from '../language/language.page';
-import CopyComponent from '../../components/copy/copy.component';
-import SelfieComponent from '../../components/selfie/selfie.component';
+import ChartPage from '../chart/chart.page';
+import CopyPage from '../copy/copy.page';
+import SelfiePage from '../selfie/selfie.page';
+
 import { LandingPageWrapper } from './style';
 
 const LandingPage = () => {
@@ -62,13 +63,13 @@ const LandingPage = () => {
                 </Paper>
             </div>
             <TabPanel value={value} index={0}>
-                <LanguagePage />
+                <ChartPage />
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <CopyComponent />
+                <CopyPage />
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <SelfieComponent />
+                <SelfiePage />
             </TabPanel>
         </LandingPageWrapper>
     )

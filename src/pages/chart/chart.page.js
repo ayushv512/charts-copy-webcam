@@ -1,15 +1,16 @@
 import React from 'react';
 import axios from 'axios';
+import { withAlert } from "react-alert";
 
-import { LanguagePageWrapper } from './style';
 import FiltersComponent from '../../components/filters/filters.component';
 import ChartComponent from '../../components/chart/chart.component';
 import Button from '@material-ui/core/Button';
-import { dummyChartsData } from '../../config/config';
-import { withAlert } from "react-alert";
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-class LanguagePage extends React.Component {
+//import { dummyChartsData } from '../../config/config';
+import { ChartPageWrapper } from './style';
+
+class ChartPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -58,7 +59,7 @@ class LanguagePage extends React.Component {
     render() {
         const filterClass = this.state.filtersPanelHide ? 'filter-panel-hide' : '';
         return (
-            <LanguagePageWrapper>
+            <ChartPageWrapper>
                 <div className="filters-wrapper">
                     <Button variant="contained" color="primary" onClick={this.handleFilterClick} className="filters-btn">
                         <div>Filters</div>
@@ -80,7 +81,7 @@ class LanguagePage extends React.Component {
                         <ChartComponent data={this.state.chartData} /> :
                         <div className="error-msg">Not enough data to display!</div>
                 }
-            </LanguagePageWrapper>
+            </ChartPageWrapper>
         );
     }
 
@@ -117,4 +118,4 @@ class LanguagePage extends React.Component {
     }
 }
 
-export default withAlert()(LanguagePage);
+export default withAlert()(ChartPage);
